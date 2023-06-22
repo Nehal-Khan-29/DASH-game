@@ -381,8 +381,8 @@ def check_collision():
         canvas.after(2000, lambda: canvas.delete(goal_text))  
 
 
-    canvas.itemconfig(score_label_player2, text="TEAM 1: {}".format(score_player3))
-    canvas.itemconfig(score_label_player3, text="TEAM 2: {}".format(score_player1))
+    canvas.itemconfig(score_label_player2, text="TEAM 2: {}".format(score_player3))
+    canvas.itemconfig(score_label_player3, text="TEAM 1: {}".format(score_player1))
 
 
     canvas.after(10, check_collision)
