@@ -538,8 +538,8 @@ circle = canvas.create_oval(circle_x, circle_y, circle_x + CIRCLE_SIZE, circle_y
 
 
 
-score_label_player2 = canvas.create_text(300, 30, text="TEAM 1: {}".format(score_player1), font=("Arial", 16), anchor="w", fill="purple")
-score_label_player3 = canvas.create_text(1100, 30, text="TEAM 2: {}".format(score_player3), font=("Arial", 16), anchor="w", fill="blue")
+score_label_player3 = canvas.create_text(300, 30, text="TEAM 1: {}".format(score_player1), font=("Arial", 16), anchor="w", fill="purple")
+score_label_player2 = canvas.create_text(1100, 30, text="TEAM 2: {}".format(score_player3), font=("Arial", 16), anchor="w", fill="blue")
 
 
 time_label = canvas.create_text(CANVAS_WIDTH // 2, 30, text="Time: 01:00", font=("Arial", 16), anchor="center")
